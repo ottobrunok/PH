@@ -1,0 +1,43 @@
+/***************************************************************************************************
+ * Programmeerimisharjutused. LTAT.03.007
+ * 2020/2021 kevadsemester
+ *
+ * Kodutöö. Ülesanne nr 1b
+ * Teema:
+ *           Tsüklid
+ *
+ * Autor: Otto Bruno Koobakene
+ *
+ ***************************************************************************************************/
+
+
+
+
+
+
+
+
+   System.out.println("Kodutöö nr 1b.                                              Programmi väljund");
+   System.out.println("=============================================================================:");
+
+
+
+
+   System.out.println("=============================================================================.");
+   System.out.println("Otto Bruno Koobakene                                "
+           + new java.sql.Timestamp(System.currentTimeMillis()));
+
+
+Pärast silumise lõpetamist toimub lahenduse vormistamine ja üleslaadimine. Selleks:
+1) lahendusprogramm Nimi.java koos selle poolt kasutatavate failidega kopeeritakse eelnevalt tühjendatud kausta;
+2) käsurealt selles kaustas kompileeritakse (vajadusel eelnevalt sõltumatult kompileeritavaks redigeeritud) Nimi.java
+javac Nimi.java (kui programmi teksti kodeering on ANSI (e Windows 1257)
+või javac –encoding utf8 Nimi.java (kui programmi teksti kodeering on utf-8)
+3) käivitatakse käsurealt selles kaustas (tavaliselt pärast kontrollkäivitust java Nimi)
+java Nimi > tulemus.txt (st väljund suunatakse faili tulemus.txt)
+4) kõik selles kaustas nüüd olevad failid
+Nimi.java (+ välisklassid *.java)
+Nimi.class jt kompilaatori loodud klassifailid (*.class)
+tulemus.txt
+[andmefailid (kui on) , nt *.txt, *.csv vmt]
+moodustavadki lahenduse ja laaditakse (ühekaupa) Moodle’isse. 

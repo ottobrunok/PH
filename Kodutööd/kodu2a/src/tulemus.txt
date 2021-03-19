@@ -1,0 +1,12 @@
+Kodutöö nr 2a.                          Programmi väljund
+=========================================================:
+
+Minu sünnipäeval eelmisel aastal (2019-02-22) oli keskpäevane temperatuur -6.0 kraadi.
+2019. aasta keskmine temperatuur oli 7.573153625833982 kraadi.
+2019. aasta suurim ja vähim temperatuur olid: [-19.6217982456, 30.7863841808]
+2019. aasta kuude keskmised temperatuurid olid: [-5.6831650830344245, -0.20025812167876356, 1.2295453348616503, 8.07306092600655, 11.616099016567482, 18.768446189688934, 16.44449357145775, 16.753063550546013, 11.969232065146368, 6.998261148252988, 2.5618360076665403, 1.7562116948340734]
+2019. aasta pikim kasvav või kahanev periood oli: [2019-07-28 19:20:00, 2019-07-29 05:05:00]
+2019. aastal oli 31113 lokaalset ekstreemumit.
+
+=========================================================.
+Otto Bruno Koobakene                      2021-02-23 15:55:49.498
