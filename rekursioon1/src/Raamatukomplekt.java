@@ -1,6 +1,6 @@
 /*
 
-Raamatukomplektid, mille kogusumma j‰‰b [50,55] vahele.
+Raamatukomplektid, mille kogusumma j√§√§b [50,55] vahele.
  */
 
 import java.util.Arrays;
@@ -8,16 +8,16 @@ import java.util.Arrays;
 public class Raamatukomplekt {
     public static void main(String[] args) {
         int[] raamatuHinnad = {50, 30, 20, 11, 5};
-        pıhi(raamatuHinnad);
+        p√µhi(raamatuHinnad);
 
     }
 
-    public static int[][] pıhi(int[] raamatud) {
+    public static int[][] p√µhi(int[] raamatud) {
         int[] valitudRaamatud = new int[raamatud.length];
-        return pıhiabi(raamatud, valitudRaamatud, 0, 0, 0);
+        return p√µhiabi(raamatud, valitudRaamatud, 0, 0, 0);
     }
 
-    public static int[][] pıhiabi(int[] raamatud, int[] valitudRaamatud, int summa, int i, int j) {
+    public static int[][] p√µhiabi(int[] raamatud, int[] valitudRaamatud, int summa, int i, int j) {
         // puu leht---lehttipud
         //baas
         if (i >= raamatud.length) {
@@ -31,10 +31,10 @@ public class Raamatukomplekt {
         //valin praeguse raamatu
         //samm
         valitudRaamatud[j] = raamatud[i];
-        int[][] kuivalisin = pıhiabi(raamatud, valitudRaamatud, summa + valitudRaamatud[i], i + 1, j + 1);
+        int[][] kuivalisin = p√µhiabi(raamatud, valitudRaamatud, summa + valitudRaamatud[i], i + 1, j + 1);
 
         //ei valinud raamatut
-        int[][] kuiEiValinud = pıhiabi(raamatud, valitudRaamatud, summa, i + 1, j);
+        int[][] kuiEiValinud = p√µhiabi(raamatud, valitudRaamatud, summa, i + 1, j);
 
         //paneme vastused kokku
         int[][] vastus = new int[kuivalisin.length][kuiEiValinud.length];
